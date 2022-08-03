@@ -34,10 +34,12 @@ from streamlit_option_menu import option_menu
 import pandas as pd
 import numpy as np
 
+
 # Custom Libraries
 from utils.data_loader import load_movie_titles
 from recommenders.collaborative_based import collab_model
 from recommenders.content_based import content_model
+import png
 
 # Data Loading
 title_list = load_movie_titles('resources/data/movies.csv')
