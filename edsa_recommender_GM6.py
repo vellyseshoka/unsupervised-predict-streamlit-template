@@ -156,19 +156,19 @@ def main():
         st.title('EDA')
         if st.checkbox("Movie Production"):
             st.subheader("Movies Produced per Year")
-            st.image('resources/imgs/Movies_Produced_Per_Year.PNG',use_column_width=True)
+            st.image('resources/imgs/Movies_Produced_Per_Year.png',use_column_width=True)
             st.write("More than 1700 movies were produced in the year 2015, which is the year with the highest numbers of movies produced, followed by the year 2016 and 2017, which both have more than 1500 movies produced")
 
         if st.checkbox("Genres"):
             st.subheader("Movie Genres")
             st.write("Here we look at Movie genres that appears most in movies. This information will enable us understand the genres of movies produced most for the period the data was captured.")
-            st.image('resources/imgs/gengre.PNG',use_column_width=True)
+            st.image('resources/imgs/gengre.png',use_column_width=True)
             st.write("Drama and Comedy are the most popular genres, followed by Thriller and Romance. We need to keep in mind that the movies could have multiple genres.")
 
 
         if st.checkbox("Top Watched Movies"):
             st.subheader("Movies That Are Nostly Watched")
-            st.image('resources/imgs/wordcloud.PNG',use_column_width=True)
+            st.image('resources/imgs/wordcloud.png',use_column_width=True)
             st.write("We can see from the wordcloud that Sci-Fi, Action, Adventure, Drama and Crime are the top watched Genres movies.")
 
 
