@@ -193,7 +193,7 @@ def main():
 		""")
         with left_column:
 
-            mail = Image.open('resources/imgs/presentation.png')
+            mail = Image.open('resources/imgs/Presentation.png')
             st.image(mail, width = None)
 
             mail2 = Image.open('resources/imgs/email2.png')
